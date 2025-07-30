@@ -180,7 +180,7 @@ section h2 {
 
 .card {
     display: inline-block;
-    /* border: 3px solid #ff2978; */
+    /* border: 3px solid #ff2929; */
     margin: 10px;
     border-radius: 10px;
     padding: 20px;
@@ -189,7 +189,11 @@ section h2 {
     cursor: pointer;
 }
 
-.textooculto {
+.card .textooculto {
+    display: none;
+}
+
+.card:hover img {
     display: none;
 }
 
@@ -199,9 +203,36 @@ section h2 {
     transition: 0.4s;
 }
 
-.card:hover img {
+.card:hover .aper {
     display: none;
+}
 
+.card:hover .textooculto {
+    display: block;
+}
+
+.carta {
+    display: inline-block;
+    border: 3px solid #ff2929;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carta img {
+    border: solid red;
+    display: none;
+}
+
+.carta:hover img {
+    display: block;
+}
+
+.carta:hover .txt1 {
+    display: none;
 }
 
 footer {
