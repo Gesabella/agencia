@@ -163,12 +163,12 @@ section h2 {
 }
 
 .divmae {
-    /* border: solid red; */
+    border: solid red;
     text-align: center;
 }
 
 .servicos {
-    /* border: solid green; */
+    border: solid green;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 5%;
@@ -180,7 +180,7 @@ section h2 {
 
 .card {
     display: inline-block;
-    /* border: 3px solid #ff2929; */
+    border: 3px solid #ff2929;
     margin: 10px;
     border-radius: 10px;
     padding: 20px;
@@ -228,7 +228,7 @@ section h2 {
 }
 
 .carta:hover img {
-    display: block;
+    display: flex;
 }
 
 .carta:hover .txt1 {
