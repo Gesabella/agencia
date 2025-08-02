@@ -1,5 +1,6 @@
 .conteiner {
     border: solid red;
+    display: inline-block;
     padding: 20px;
 }
 
@@ -11,7 +12,6 @@
 }
 
 .cards {
-
     height: 350px;
     width: 350px;
     border: solid green;
