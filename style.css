@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
-    box-shadow: border-box;
+    /* box-shadow: border-box; */
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -69,7 +70,7 @@ body {
 }
 
 .hero {
-    height: 500px;
+    height: auto;
     display: flex;
     /* background: grey; */
     flex-flow: row;
@@ -82,6 +83,7 @@ body {
     margin-left: 10%;
     /* border: solid red; */
     width: 40%;
+    padding: 15px;
 }
 
 .cta h2 {
@@ -108,6 +110,7 @@ div .top-cta {
     /* border: solid blue; */
     width: 40%;
     text-align: center;
+    max-height: 100%;
 }
 
 .btn-top {
@@ -146,7 +149,7 @@ div .top-cta {
 
 section.paralax1:nth-last-of-type(2) {
     background-image: url(/img/backgrond.png);
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 section h2 {

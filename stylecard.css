@@ -1,43 +1,190 @@
-.conteiner {
-    border: solid red;
-    display: inline-block;
-    padding: 20px;
-}
+.projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    height: 450px;
+    margin-top: 50px;
+    /* background: rgb(5, 5, 194); */
 
-.sobre {
-    size: 20px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .cards {
-    height: 350px;
-    width: 350px;
-    border: solid green;
+    border: solid red;
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    /* background-color: bisque; */
+    transition: 0.5s;
 }
 
-.pages {
-    border: solid brown;
-    width: 350px;
-    height: 350px;
+.cards:hover {
+    height: 450px;
 }
 
-.cards:hover .pages {
-    display: none;
+.cards .img-box {
+    position: absolute;
+    height: auto;
+    width: 300px;
+    transition: 0.5s;
+}
+
+
+
+.cards .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
 }
 
-.context {
-    margin: 15px;
-    display: none;
+.cards:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+    /* display: none; */
+
 }
 
-.cards:hover .context {
-    display: block;
+.img-box {
+    border: solid rgb(4, 255, 0);
+
 }
 
-p {
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
+.cards .content {
+    border: solid rgb(60, 0, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    overflow: hidden;
+    /* aprendi aqui a importancia do hidden em conjunto com a altura da div */
+    height: 40%;
+}
+
+.cards:hover .content {
+    top: 130px;
+    height: 250px;
+}
+
+/* /////////////////////segundo card//////////////////////////// */
+.cards2 {
+    border: solid red;
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    /* background-color: bisque; */
+    transition: 0.5s;
+}
+
+.cards2:hover {
+    height: 450px;
+}
+
+.cards2 .img-box2 {
+    position: absolute;
+    height: auto;
+    width: 300px;
+    transition: 0.5s;
+}
+
+
+
+.cards2 .img-box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.cards2:hover .img-box2 {
+    opacity: 15%;
+}
+
+.img-box2 {
+    border: solid rgb(4, 255, 0);
+
+}
+
+.cards2 .content2 {
+    border: solid rgb(60, 0, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    overflow: hidden;
+    /* aprendi aqui a importancia do hidden em conjunto com a altura da div */
+    height: 40%;
+}
+
+.cards2:hover .content2 {
+    top: 10px;
+    height: 250px;
+}
+
+/* /////////////////////terceiro card//////////////////////////// */
+
+.cards3 {
+    border: solid red;
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    /* background-color: bisque; */
+    transition: 0.5s;
+}
+
+.cards3:hover {
+    height: 450px;
+}
+
+.cards3 .img-box {
+    position: absolute;
+    height: auto;
+    width: 300px;
+    transition: 0.5s;
+}
+
+
+
+.cards3 .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.cards3:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+    /* display: none; */
+
+}
+
+.img-box {
+    border: solid rgb(4, 255, 0);
+
+}
+
+.cards3 .content {
+    border: solid rgb(60, 0, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    overflow: hidden;
+    /* aprendi aqui a importancia do hidden em conjunto com a altura da div */
+    height: 40%;
+}
+
+.cards3:hover .content {
+    top: 130px;
+    height: 250px;
 }
