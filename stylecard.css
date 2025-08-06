@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 .projetos {
     display: flex;
     justify-content: center;
@@ -41,7 +44,7 @@
 
 .cards:hover .img-box {
     top: -100px;
-    scale: 0.75;
+    scale: 0.60;
     /* display: none; */
 
 }
@@ -61,7 +64,7 @@
     text-align: center;
     overflow: hidden;
     /* aprendi aqui a importancia do hidden em conjunto com a altura da div */
-    height: 40%;
+    height: 30%;
 }
 
 .cards:hover .content {
@@ -80,10 +83,6 @@
     transition: 0.5s;
 }
 
-.cards2:hover {
-    height: 450px;
-}
-
 .cards2 .img-box2 {
     position: absolute;
     height: auto;
@@ -91,13 +90,11 @@
     transition: 0.5s;
 }
 
-
-
 .cards2 .img-box2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 .cards2:hover .img-box2 {
@@ -119,7 +116,8 @@
     text-align: center;
     overflow: hidden;
     /* aprendi aqui a importancia do hidden em conjunto com a altura da div */
-    height: 40%;
+    height: 30%;
+    transition: 0.7;
 }
 
 .cards2:hover .content2 {
@@ -171,7 +169,7 @@
 
 }
 
-.cards3 .content {
+.cards3 .content3 {
     border: solid rgb(60, 0, 255);
     display: flex;
     flex-direction: column;
@@ -184,7 +182,7 @@
     height: 40%;
 }
 
-.cards3:hover .content {
+.cards3:hover .content3 {
     top: 130px;
     height: 250px;
 }
