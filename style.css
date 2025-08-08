@@ -144,12 +144,13 @@ div .top-cta {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    border: solid red;
 }
 
 section.paralax1:nth-last-of-type(2) {
     background-image: url(/img/backgrond.png);
     margin-top: 70px;
+    border: solid rgb(121, 5, 153);
 }
 
 section h2 {
@@ -244,4 +245,9 @@ footer {
     color: white;
     text-align: center;
     align-items: center;
+}
+
+.sobreNos {
+    margin: 20px 10px;
+
 }
