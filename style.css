@@ -12,10 +12,14 @@ body {
 }
 
 .navbar {
+    /* border: solid pink; */
+    position: fixed;
+    z-index: 1;
+    width: 100%;
     display: flex;
     flex-flow: row;
     height: 100px;
-    /* background: cadetblue; */
+    background: #fff;
     justify-content: center;
     align-items: center;
 }
@@ -38,6 +42,14 @@ body {
     /* border: solid green; */
     text-align: right;
     padding: 20px;
+
+}
+
+h2 {
+
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
 }
 
 .menu a {
@@ -67,6 +79,11 @@ body {
     border: none;
     background: #ff2978;
 
+}
+
+header {
+
+    background-color: aqua;
 }
 
 .hero {
@@ -101,8 +118,6 @@ div .principal {
 
 div .top-cta {
     letter-spacing: 10px;
-
-
 }
 
 .img-top {
@@ -150,7 +165,7 @@ div .top-cta {
 section.paralax1:nth-last-of-type(2) {
     background-image: url(/img/backgrond.png);
     margin-top: 70px;
-    border: solid rgb(121, 5, 153);
+    /* border: solid rgb(121, 5, 153); */
 }
 
 section h2 {
@@ -167,12 +182,12 @@ section h2 {
 }
 
 .divmae {
-    border: solid red;
+    /* border: solid red; */
     text-align: center;
 }
 
 .servicos {
-    border: solid green;
+    /* border: solid green; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 5%;
@@ -184,7 +199,7 @@ section h2 {
 
 .card {
     display: inline-block;
-    border: 3px solid #ff2929;
+    /* border: 3px solid #ff2929; */
     margin: 10px;
     border-radius: 10px;
     padding: 20px;
@@ -217,7 +232,7 @@ section h2 {
 
 .carta {
     display: inline-block;
-    border: 3px solid #ff2929;
+    /* border: 3px solid #ff2929; */
     margin: 10px;
     border-radius: 10px;
     padding: 20px;
@@ -227,7 +242,7 @@ section h2 {
 }
 
 .carta img {
-    border: solid red;
+    /* border: solid red; */
     display: none;
 }
 

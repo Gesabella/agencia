@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 .projects .title3 {
-    display: inline;
+
+    margin-top: 30px;
+    display: inline-block;
     border: solid orange;
     margin-left: 130px;
 }
 
 .wrapper {
     padding: 10px 10%;
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     flex-direction: column
 }
 
 #card-area {
     padding: 50px;
-    border: solid rgb(15, 104, 1);
+    /* border: solid rgb(15, 104, 1); */
 }
 
 .box-area {
@@ -23,7 +26,7 @@
     flex-flow: row wrap;
 
     align-items: center;
-    border: solid rgb(1, 53, 104);
+    /* border: solid rgb(1, 53, 104); */
     gap: 30px 30px;
 }
 
@@ -35,7 +38,7 @@
     position: relative;
     overflow: hidden;
     box-shadow: 5px 5px 15px (rgb(red, green, blue), 0, 0, 0, 5);
-    border: solid rgb(104, 47, 1);
+    /* border: solid rgb(104, 47, 1); */
 }
 
 img {
@@ -67,10 +70,11 @@ img {
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
-    border: solid rgb(104, 1, 70);
+    /* border: solid rgb(104, 1, 70); */
 }
 
 .overlay h3 {
+
     font-family: "robotto";
     margin-bottom: 5px;
     font-size: 30px;
@@ -79,8 +83,6 @@ img {
     color: #180f4a;
 
 }
-
-.overlay p {}
 
 .overlay a {
     margin-top: 10px;
